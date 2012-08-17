@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="fa-IR" dir="rtl">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="shortcut icon" type="image/x-icon" href='favicon.ico' />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<title>my site</title>
+</head>
+<body class="preload">
+	<div class="bg">
+		<div class="cloud cloud1"></div>
+		<div class="cloud cloud2"></div>
+		<div class="cloud cloud3"></div>
+		<div class="cloud cloud4"></div>
+		<div class="cloud cloud5"></div>
+		<div class="cloud cloud6"></div>
+		<div class="cloud cloud7"></div>
+		<div class="cloud cloud8"></div>
+		<a href="#"><img src="images/html5.png" alt=""></a>
+	</div>
+	<div class="social">
+		<div class="facebook">
+			<a href="#"><img src="images/so1.png" alt="facebook"></a>
+		</div>
+		<div class="twitter">
+			<a href="#"><img src="images/so2.png" alt="teitter"></a>
+		</div>
+		<div class="plus">
+			<a href="#"><img src="images/so3.png" alt="plus"></a>
+		</div>
+		<div class="youtube">
+			<a href="#"><img src="images/so4.png" alt="youtube"></a>
+		</div>
+	</div>
+		<div class="container">
+			<section>
+				<header class="slide">
+					<div id="slideshow">
+						<ul class="slides">
+    						<li><img src="img/photos/1.jpg" width="630" height="400" alt="" /></li>
+        					<li><img src="img/photos/2.jpg" width="630" height="400" alt="" /></li>
+        					<li><img src="img/photos/3.jpg" width="630" height="400" alt="" /></li>
+        					<li><img src="img/photos/4.jpg" width="630" height="400" alt="" /></li>
+   						 </ul>
+    					<span class="arrow previous"></span>
+    					<span class="arrow next"></span>
+					</div>
+				</header>
+				<article class="main">
+					<div class="topimg"></div>
+					<article class="welcome">
+						<hgroup>
+							<h3>drag & drop</h3>
+						</hgroup>
+						<p>یکی از قابلیت های هیجان انگیز و جالب HTML 5 ، این است که شما می توانید کاری کنید عنصر مورد نظرتان در صفحه وب ، قابل جابه جا شدن باشد . به عبارت دیگر کاربر بتواند آن را از نقطه ای به نقطه دیگر drag & drop کند . </br>برای مثال شما می توانید کدی طراحی کنید تا کاربر بتواند یک عکس را از مکان اولیه آن به یک مکان دوم که تعیین نموده اید ، به وسیله موس بلند کرده و جابه جا کند .</br><span style="font-size:18px;">با حل پازل زیر این قابلیت جدید html5 را تجربه کنید .</span></p>
+					</article>
+				</article>
+				<article class="top drag" ondrop="drop(event)" ondragover="allowDrop(event)">
+					<img src="images/drag/c1.jpg" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="120">
+					<img src="images/drag/c2.jpg" draggable="true" ondragstart="drag(event)" id="drag2" width="120" height="120">
+					<img src="images/drag/c3.jpg" draggable="true" ondragstart="drag(event)" id="drag3" width="120" height="120">
+					<img src="images/drag/c4.jpg" draggable="true" ondragstart="drag(event)" id="drag4" width="120" height="120">
+					<img src="images/drag/c5.jpg" draggable="true" ondragstart="drag(event)" id="drag5" width="120" height="120">
+					<img src="images/drag/c6.jpg" draggable="true" ondragstart="drag(event)" id="drag6" width="120" height="120">
+					<img src="images/drag/c7.jpg" draggable="true" ondragstart="drag(event)" id="drag7" width="120" height="120">
+					<img src="images/drag/c8.jpg" draggable="true" ondragstart="drag(event)" id="drag8" width="120" height="120">
+					<img src="images/drag/c9.jpg" draggable="true" ondragstart="drag(event)" id="drag9" width="120" height="120">
+				</article>
+				<div class="child"></div>
+				<div class="pazel">
+					<div class="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<div class="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<div class="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<div class="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<div class="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<div class="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<div class="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<div class="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					<div class="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+				</div>
+			</section>
+			<aside>
+				<h1>
+					<a href="http://w3schools.com">
+						<img src="images/logo.png" alt="html5" />
+					</a>
+				</h1>
+				<nav>
+					<menu>
+						<li><a href="index.html">صفحه اصلی</a></li>
+						<li><a href="article.html">مقالات</a></li>
+						<li><a href="video.html">رسانه</a></li>
+						<li><a href="gallery.html">گالری</a></li>
+						<li><a href="contact.html">تماس با ما</a></li>
+					</menu>
+				</nav>
+				<article class="search">
+						<p>جستجو</p>
+						<form id="search" method="get" action="/search">
+   			   				<input id="searchbox" name="q" type="text" size="40" placeholder="وارد کنید..." /></br>
+   			   				<input id="submit" type="submit" value="go" />
+						</form>				
+					</form>
+				</article>
+				<article class="social">
+					
+				</article>
+			</aside>
+		</div>
+	<footer>
+		<div class="up">
+			<a href="#"><img src="images/up.png" alt=""></a>
+		</div>
+		<p>&copy; designed by <a href="">homa adasi</a></p>
+	</footer>
+	<!--<div class="backimage"></div>-->
+</body>
+</html>
